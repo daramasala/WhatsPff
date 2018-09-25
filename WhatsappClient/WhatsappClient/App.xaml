@@ -1,0 +1,13 @@
+﻿<Application x:Class="WhatsappClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WhatsappClient"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <system:String x:Key="Username">
+            username
+        </system:String>
+    </Application.Resources>
+    
+</Application>
